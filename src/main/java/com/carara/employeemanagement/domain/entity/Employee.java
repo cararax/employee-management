@@ -31,7 +31,6 @@ public class Employee implements AbstractEntity{
     private String email;
     @Column(name = "birthDate", nullable = false)
     private LocalDate birthDate;
-
     @Column(name = "role", nullable = false, length = 11)
     private String role;
 
